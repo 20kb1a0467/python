@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b,c,d;
+    scanf("%d",&a);
+    while(a--){
+        scanf("%d%d%d",&d,&b,&c);
+        if((d+b+c)>=2){
+            printf("Not now\n");
+        }
+        else{
+            printf("Water filling time\n");
+        }
+        
+    }
+    return 0;
+}

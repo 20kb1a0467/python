@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b,d;
+    scanf("%d",&a);
+    while(a--){
+        scanf("%d%d",&d,&b);
+        if(d==0&&b%2==0)
+        printf("Yes\n");
+        else if(d==0&&b%2!=0){
+            printf("No\n");
+        }
+        else if((d+(b*2))%2==0){
+            printf("Yes\n");
+        }
+        else{
+            printf("No\n");
+        }
+        
+    }
+    return 0;
+}
